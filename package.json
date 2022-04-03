@@ -1,0 +1,31 @@
+{
+  "name": "sam-colorfy",
+  "version": "1.0.0",
+  "description": "A library to color your console logs",
+    "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAMBIT20/sam-colorfy.git"
+  },
+  "keywords": [
+    "console log colors",
+    "logs"
+  ],
+  "author": "SamNada <sambitn20@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SAMBIT20/sam-colorfy/issues"
+  },
+  "homepage": "https://github.com/SAMBIT20/sam-colorfy#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+   "files": [
+    "lib/**/*"
+  ]
+}
